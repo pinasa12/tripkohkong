@@ -1,0 +1,40 @@
+body{
+    background-color: azure;
+    background-attachment:fixed;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    background-color:rgba(112, 165, 205, 0.42);
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.bodyp{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+}
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.view{
+    color:rgb(21, 46, 242);
+}
+a{
+    color: rgb(44, 39, 84);
+}

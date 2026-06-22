@@ -1,0 +1,77 @@
+body{
+    background-image:url(view.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+/*block menu*/
+.menu{
+    background-color:rgba(112, 165, 205, 0.42);
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.text h1{
+    color:aliceblue;
+    text-align: center;
+    font-family: Kh Fasthand;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px rgb(55, 14, 242);
+    
+}
+/*block discription*/
+.textbox{
+    background-color: rgba(185, 222, 222, 0.597);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+.descrip{
+    padding: 10px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.descrip p{
+    text-align: justify;
+    font-family: Khmer OS Siemreap;
+    font-size: 20px;
+}
+b{
+    font-family:Kh Fasthand ;
+    color:rgb(245, 247, 245);
+     font-size: 20px;
+}
+/*block button*/
+.button{
+    display: flex;
+    background-color: yellow;
+    border-radius: 20px;
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.button a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Bodoni MT;
+
+}
+a{
+    color: rgb(44, 39, 84);
+}
+.mehome{
+    color:rgb(21, 46, 242);
+}
